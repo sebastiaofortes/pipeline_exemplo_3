@@ -10,7 +10,7 @@ func TestSoma(t *testing.T){
 }
 
 func Test5oma2(t *testing.T){
-	s := Soma(5, 6)
+	s := Soma(5, 5)
 	if s != 10 {
 		t.Error("Erro no teste")
 	} 
