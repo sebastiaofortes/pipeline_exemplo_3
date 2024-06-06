@@ -9,7 +9,7 @@ import (
 
 func main(){
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		_, err := w.Write([]byte("Oldri kanta larai"))
+		_, err := w.Write([]byte("Deploy Cloud Run Exemplo"))
 		if err != nil{
 			fmt.Println(err)
 		}
